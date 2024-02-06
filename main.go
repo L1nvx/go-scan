@@ -9,9 +9,9 @@ import (
 )
 
 const (
-	ipAddr      = "10.10.11.252"
-	maxWorkers  = 1000
-	timeoutSecs = 2
+	ipAddr      = "10.10.11.252" // cambia la ip a la que quieras escanear
+	maxWorkers  = 1000           // cantidad de trabajos concurrentes
+	timeoutSecs = 2              // limite de segundos para cada conexion
 )
 
 var wg sync.WaitGroup
